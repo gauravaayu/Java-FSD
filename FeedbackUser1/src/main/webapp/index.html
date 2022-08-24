@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>FeedBack</title>
+<style>
+h1{
+text-align: center;
+}
+body{
+background-color: gray;
+}
+div{
+text-align: center;
+color: white;
+width: 30%;
+border: solid black;
+margin-left: 35%;
+margin-top: 10%;
+padding: 30px;
+font-style: italic;
+background-color: black;
+}
+input{
+background-color: transparent;
+border-left: 0;
+border-right: 0;
+border-top: 0;
+color: white;
+font-size: 1rem;
+
+
+}
+.button{
+width: 100px;
+height: 30px;
+background-color: lightgreen;
+color: white;
+border: 0px;
+
+}
+.button:hover{
+
+width: 110px;
+height: 35px;
+background-color: green;
+
+}
+strong{
+
+font-size: 1.2rem;
+}
+
+
+</style>
+</head>
+<body>
+
+<div>
+<h1> <b> User FeedBack Form</b></h1>
+<form action="feedback" method="post">
+
+
+<strong>UserName:</strong> <input type="text" name="name" placeholder="Enter Your Name" required="required"><br><br>
+<strong >Email:</strong> <input type="email" name="email" placeholder="Enter Your Email" required="required"><br><br>
+<strong>Feedback:</strong> <input type="text" name="feedback" placeholder="Enter Your Feedback" required="required"><br><br>
+<input type="submit" value="Submit" class="button">
+</form>
+</div>
+</body>
+</html>
