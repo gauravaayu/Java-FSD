@@ -1,0 +1,37 @@
+.card{
+    margin-top: 10px;
+    border: none;
+    width: 500px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 55%;
+   background:linear-gradient(90deg, rgb(7, 88, 27) 0%,rgb(36, 36, 97) 100%);
+    color:white;
+    font-size: 16px;
+
+   
+
+}
+a{
+    margin-top: 20px;
+    color: rgb(237, 69, 237);
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+h1{
+    font-size: 32px;
+    font-weight: 500;
+    color: white;
+}
+.btn{
+    align-items: center;
+    text-align: center;
+    margin-left: 25% ;
+    width: 200px;
+    font-weight: 500;
+    background-color: rgb(7, 43, 249);
+    border: none;
+    color: white;
+}

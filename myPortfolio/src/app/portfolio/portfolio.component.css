@@ -1,0 +1,27 @@
+.brief h1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-weight: 500;
+    font-size: 50px;
+    color: crimson;
+    font-style: italic;
+}
+
+.brief p{
+    letter-spacing: 1px;
+    font-size: larger;
+    color: rgb(102, 5, 99);
+    font-style: oblique;
+    font-size: 30px;
+}
+.col-md-6{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 2px;
+  width: auto;
+ 
+  
+}
+.page-header{
+    border-radius: 4px;
+}

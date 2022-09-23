@@ -1,0 +1,12 @@
+.card{
+    text-align: center;
+    align-items: center;
+    margin-top: 10%;
+    margin-left: 20%;
+    padding: 50px;
+    background: linear-gradient(90deg ,rgb(129, 79, 21) 0%,cadetblue 100%);
+    color: white;
+    font-weight: 500;
+    
+
+}

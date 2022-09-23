@@ -1,0 +1,84 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "first_name": "Aayushi",
+      "last_name": "Mishra",
+      "email": "aayu@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": 2,
+      "first_name": "Aayu",
+      "last_name": "Upadhyay",
+      "email": "puttu@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": 3,
+      "first_name": "Swati",
+      "last_name": "Jii",
+      "email": "suppu@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": 4,
+      "first_name": "Bhonu",
+      "last_name": "Mishra",
+      "email": "bhonu@yahoo.com",
+      "password": "123"
+    },
+    {
+      "id": 5,
+      "first_name": "Somu",
+      "last_name": "Tiwari",
+      "email": "somu@yahoo.com",
+      "password": "1234567890"
+    },
+    {
+      "fullname": "Gaurav Mishra",
+      "email": "gaurav0143@gmail.com",
+      "password": "Gaurav@123",
+      "mobile": "8525635645",
+      "id": 6
+    },
+    {
+      "fullname": "Nikhil Bhardwaj",
+      "email": "nikhil@gmail.com",
+      "password": "123456",
+      "mobile": "1234567890",
+      "id": 7
+    },
+    {
+      "fullname": "Rajendra Mishra",
+      "email": "Raj@gmail.com",
+      "password": "123",
+      "mobile": "1234567890",
+      "id": 8
+    },
+    {
+      "fullname": "Ram Kumar",
+      "email": "mnhh@gmail.com",
+      "password": "1234",
+      "mobile": "7856221877",
+      "id": 9
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
