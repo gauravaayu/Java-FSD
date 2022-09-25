@@ -1,0 +1,77 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "users": [
+    {
+      "fullname": "Gaurav Mishra",
+      "email": "gaurav0143@gmail.com",
+      "password": "Gaurav@123",
+      "mobile": "8525635645",
+      "id": 6
+    },
+    {
+      "fullname": "Nikhil Bhardwaj",
+      "email": "nikhil@gmail.com",
+      "password": "123456",
+      "mobile": "1234567890",
+      "id": 7
+    },
+    {
+      "id": 8,
+      "fullname": "Rajendra Kumar Mishra",
+      "mobile": "7454",
+      "email": "gaurav0143@gmail.com",
+      "password": "Gaurav@123"
+    },
+    {
+      "fullname": "Ram Kumar",
+      "email": "mnhh@gmail.com",
+      "password": "1234",
+      "mobile": "7856221877",
+      "id": 9
+    },
+    {
+      "fullname": "Angoor",
+      "email": "angur0143@gmail.com",
+      "password": "0000",
+      "mobile": "Tiwari",
+      "id": 10
+    },
+    {
+      "fullname": "Rajendra Kumar Mishra",
+      "email": "gaurav0143@gmail.com",
+      "password": "Gaurav@123",
+      "mobile": "7454",
+      "id": 11
+    },
+    {
+      "fullname": "Rajendra Kumar Mishra",
+      "email": "gaurav0143@gmail.com",
+      "password": "Gaurav@123",
+      "mobile": "74544",
+      "id": 12
+    },
+    {
+      "id": 13,
+      "fullname": "Alok Pandey",
+      "mobile": "7856489885",
+      "email": "alokji0143@gmail.com",
+      "password": "1234"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

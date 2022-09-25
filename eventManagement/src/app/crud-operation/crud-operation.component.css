@@ -1,0 +1,32 @@
+.row{
+    background: linear-gradient(90deg,rgb(194, 183, 31) 0%,rgb(33, 33, 87) 100%);
+    display: flex;
+    justify-content: space-between;
+    margin: 3px;
+    }
+    .row button{
+        width: 200px;
+        height: 3rem;
+        margin: 30px;
+        background-color: green;
+        color: white;
+        padding:2px;
+    border: none;
+    transition: 1s;
+     
+    }
+    .row button:hover{
+       
+        background-color: rgb(54, 90, 54);
+      
+        
+    }
+    .btn{
+        margin: 10px;
+    }
+    .container{
+        margin-top: 30px;
+    }
+    .row h2{
+        margin: 20px;
+    }
