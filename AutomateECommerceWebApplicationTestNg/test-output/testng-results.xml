@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-11T15:17:06Z" name="Default suite" finished-at="2022-10-11T15:17:25Z" duration-ms="19292">
+    <groups>
+    </groups>
+    <test started-at="2022-10-11T15:17:06Z" name="Default test" finished-at="2022-10-11T15:17:25Z" duration-ms="19292">
+      <class name="com.simplilearn.demo.FirefoxTest">
+        <test-method signature="Product()[pri:0, instance:com.simplilearn.demo.FirefoxTest@7b8b43c7]" started-at="2022-10-11T15:17:06Z" name="Product" finished-at="2022-10-11T15:17:25Z" duration-ms="19226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Product -->
+      </class> <!-- com.simplilearn.demo.FirefoxTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
