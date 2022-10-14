@@ -1,0 +1,19 @@
+.image{
+    height:39em; background-size:cover; width:auto;
+    background-image:url('aadhar.jpg');
+    background-position:50% 50%;
+  }
+  .container{
+
+    padding: auto;
+    margin: auto;
+    background-position: 50%;
+    background-color: beige;
+    
+  }
+  .row m-3{
+    padding: auto;
+    margin: auto;
+    border: 0.5px;
+    
+  }

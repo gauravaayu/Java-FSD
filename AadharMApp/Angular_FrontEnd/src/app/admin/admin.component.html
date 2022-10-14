@@ -1,0 +1,66 @@
+<div class="images">
+  <img src="https://www.contactnumbers.in/wp-content/uploads/2018/05/aadhaar-logo.png" alt="">
+  <br />
+  <br />
+  <div class="container d-flex justify-content-center">
+    <form
+      [formGroup]="loginForm"
+      (ngSubmit)="onSubmit()"
+      class="w-50 p-4"
+      style="color: rgb(23, 3, 3)"
+    >
+      <h4 class="text-center">ADMIN LOGIN</h4>
+
+      <div class="row">
+        <div class="form-group">
+          <label for="username"><b>Admin</b></label>
+          <input
+            type="text"
+            id="admin"
+            class="form-control"
+            formControlName="admin"
+          />
+          <span
+            style="color: rgb(146, 24, 24)"
+            class="small"
+            *ngIf="
+              !loginForm.get('admin').valid && loginForm.get('admin').touched
+            "
+            ><h2>Please enter a valid admin name</h2></span
+          >
+        </div>
+      </div>
+      <br><br>
+      <div class="row">
+        <div class="form-group">
+          <label for="password"><b>Password</b></label>
+          <input
+            type="password"
+            id="password"
+            class="form-control"
+            formControlName="password"
+          />
+          <span
+            style="color: rgb(20, 19, 19)"
+            class="small"
+            *ngIf="
+              !loginForm.get('password').valid &&
+              loginForm.get('password').touched
+            "
+            ><h5>Please enter a valid password</h5></span
+          >
+          <br />
+          <span
+            style="color: rgb(241, 18, 18)"
+            class="small"
+            *ngIf="loginForm.get('password').hasError('passwordStrength')"
+          >
+            {{ loginForm.get("password").errors["passwordStrength"] }}
+          </span>
+        </div>
+      </div>
+      <br />
+      <button type="submit" class="btn btn-primary"><b>Login</b></button>
+    </form>
+  </div>
+</div>

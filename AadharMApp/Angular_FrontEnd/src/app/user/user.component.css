@@ -1,0 +1,19 @@
+
+
+  form{
+
+    border: 1px;
+    background-color: gray;
+    box-shadow: 2px 3px 3px 2px black;
+    text-shadow: 1px 1px 3px 1px rgb(20, 13, 13);
+  }
+  .btn{
+    align-items: center;
+    text-align: center;
+    margin-left: 30% ;
+    width: 200px;
+    font-weight: 500;
+    background-color: rgb(7, 43, 249);
+    border: none;
+    color: white;
+  }
